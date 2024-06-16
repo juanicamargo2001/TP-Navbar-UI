@@ -25,6 +25,13 @@ body{
     flex-direction:row;
     justify-content: space-between ;
     align-items: center;
+    /* padding: 1em; */
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .logo{
@@ -41,7 +48,7 @@ body{
 
 .logo h3{
     font-size: 1em;
-    margin-right: 10px;
+    margin-right: 0.5em;
     color: #0468BF;
 }
 
@@ -50,7 +57,56 @@ button{
     background-color: #ffffff;
     color: black;
     border: none;
-    padding: 0.5em 1em;
+    margin: 0 0.5em 0 0.5em;
+    padding: 0.25em 0.5em;
     border-radius: 5px;
     cursor: pointer;
 }
+
+.button-border{
+    border: 2px solid #0468BF;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-border:hover{
+    background-color: #0468BF;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    gap:1em;
+}
+
+.right-nav-links {
+    margin-left: auto;
+}
+
+
+.search {
+    flex-grow: 1;
+    margin: 0 3em 0 0;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+}
+
+.search input {
+    width: 100%;
+    padding: 0.5em 0.5em 0.5em 2.5em; /* Espacio para el icono */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,25 +15,29 @@
     <section class="navbar search-tab">
         <h2 class="title-bar">With Search Tab</h2>
         <div class="box">
-            <div class="logo">
-                <img src="img/icon-title.png" alt="logo">
-                <h3>Supryze</h3>
-            </div>
-            <div>
-                <nav>
-                    <a href="#"><button>Gift</button></a>
-                    <a href="#"><button>Flowers</button></a>
-                </nav>
+            <div class="left-section">
+                <div class="logo">
+                    <img src="img/icon-title.png" alt="logo">
+                    <h3>Supryze</h3>
+                </div>
+                <div class="nav-links">
+                        <nav>
+                            <a href="#"><button>Gift</button></a>
+                            <a href="#"><button>Flowers</button></a>
+                        </nav>
+                </div>
             </div>
             <div class="search">
-                <input type="text" placeholder="Search">
-                <button>Search</button>
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="Search">
+                </div>
             </div>
-            <div>
+            <div class="nav-links right-nav-links">
                 <nav>
                     <a href="#"><button>About</button></a>
-                    <a href="#"><button>Dowload App</button></a>
-                    <a href="#"><button>Register</button></a>
+                    <a href="#"><button class="button-border">Download App</button></a>
+                    <a href="#"><button class="button-border">Register</button></a>
                     <a href="#"><button>Login</button></a>
                 </nav>
             </div>
@@ -42,23 +47,24 @@
     <section class="navbar no-search-tab">
         <h2 class="bar-title">Without Search Tab</h2>
         <div class="box">
-            <div class="logo">
-                <img src="img/icon-title.png" alt="logo">
-                <h3>Supryze</h3>
+            <div class="left-section">
+                <div class="logo">
+                    <img src="img/icon-title.png" alt="logo">
+                    <h3>Supryze</h3>
+                </div>
+                <div class="nav-links">
+                    <nav>
+                        <a href="#"><button>Gift</button></a>
+                        <a href="#"><button>Flowers</button></a>
+                    </nav>
+                </div>
             </div>
-            <div>
-                <nav>
-                    <a href="#"><button>Gift</button></a>
-                    <a href="#"><button>Flowers</button></a>
-                </nav>
-            </div>
-            <div>
-            </div>
-            <div>
+
+            <div class="nav-links right-nav-links">
                 <nav>
                     <a href="#"><button>About</button></a>
-                    <a href="#"><button>Dowload App</button></a>
-                    <a href="#"><button>Register</button></a>
+                    <a href="#"><button class="button-border">Download App</button></a>
+                    <a href="#"><button class="button-border">Register</button></a>
                     <a href="#"><button>Login</button></a>
                 </nav>
             </div>
